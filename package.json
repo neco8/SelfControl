@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "elm": "^0.19.1-5",
+    "elm-analyse": "^0.16.5",
+    "elm-format": "^0.8.5",
+    "parcel": "^2.0.0"
+  },
+  "scripts": {
+    "format": "elm-format ./ --yes",
+    "analyse": "elm-analyse",
+    "lint": "yarn format & yarn analyse"
+  },
+  "devDependencies": {
+    "@parcel/transformer-elm": "^2.0.0"
+  }
+}
